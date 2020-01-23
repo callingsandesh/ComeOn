@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title_block %}
+ <title>blogs</title>
+{% endblock %}
+
+{% block content %}
+  {% include 'blogs/blog_banner_img.html' %}
+  {% include 'blogs/main_blog_list.html '%}
+{% endblock %}

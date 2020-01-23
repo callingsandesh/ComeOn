@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title_block %}
+ <title>destinations</title>
+{% endblock%}
+
+{% block content %}
+ {% include 'travello/destination_banner_img.html'%}
+ {% include 'travello/destination_list.html' %}
+{% endblock %}
